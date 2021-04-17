@@ -102,7 +102,7 @@ input, button{
     width: 70%;
     margin: auto;
     align-items: center;
-
+    margin-bottom: 20px;
 }
 
 .publish{
@@ -153,4 +153,85 @@ input, button{
     left: 0;
     right: 0;
     background-color: #fffbf7;
+}
+
+.features {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(2,1fr);
+    height: 660px;
+    background-color: #025157;
+    padding: 5% 10%;
+   /* grid-template-columns: 300px 300px;
+   grid-template-columns: 500px 1fr; <--Una fracción de lo que quede
+   grid-template-columns: 1fr 1fr <-- 50%;
+   grid-template-columns: repeat (2,300px)*/
+}
+
+.features .feature-card {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px 30px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.features .feature-card .feature-content {
+   /* display: flex;
+    flex-direction: column;*/
+    flex: 2;
+    padding: 30px 20px 40px 40px;
+}
+
+.features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.features .feature-card .feature-content img {
+    width: 50px;
+}
+
+.features .feature-card .feature-content figure {
+    margin-left: 0;
+}
+
+.features .feature-card .feature-image {
+    flex: 1;
+    position: relative;
+    width: 40%;
+    right:-50px;
+    height: 80%;
+    transition: right 1s; /*Señala qué va a cambiar, en este caso el right*/
+}
+
+.features .feature-card .feature-image:hover {
+    right:0;
+}
+
+.features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.features .feature-card .feature-content p {
+    font-size: 1rem;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.features .feature-card .feature-content a {
+    font-size: 1rem;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img {
+    margin-top:0;
+    height: 100%;
 }
