@@ -26,7 +26,7 @@ h4 {
 button {
     background-color: #025157;
     color: #fff;
-
+    border:none;
 }
 
 form {
@@ -234,4 +234,239 @@ input, button{
 .features .feature-card .feature-image img {
     margin-top:0;
     height: 100%;
+}
+
+.success-stories {
+    background-color: #a1d683;
+    display: flex;
+    flex-direction: row;
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.success-stories .overwiew {
+    display: flex;
+    flex: 2;
+    /*flex-direction: column;*/
+    padding-right: 100px;
+}
+.success-stories .overview h2 {
+    font-family: 'Alegreya', serif;
+    color: #025157;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.success-stories .overview .brands {
+    width: 500px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.success-stories .overview button {
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.success-stories .stories-carousel {
+    background-color: pink;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.success-stories .stories-carousel .card {
+    position:relative;
+    max-width: 370px;
+    width: 100%;
+    border-radius: 10px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+}
+
+.success-stories .stories-carousel .card .card-media {
+    position: relative;
+}
+
+.success-stories .stories-carousel .card .card-media figure {
+    margin-top: 0;
+}
+
+.success-stories .stories-carousel .card .card-media figure img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.success-stories .stories-carousel .card .company {
+    background-color:  #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.success-stories .stories-carousel .card .company img {
+    width: 75%;
+}
+
+.success-stories .stories-carousel .card .card-body {
+    padding: 25px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+
+}
+
+.success-stories .stories-carousel .card .card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.success-stories .stories-carousel .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.success-stories .stories-carousel .card .card-body .results {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.success-stories .stories-carousel .card .card-body .results img {
+    width: 26px;
+    margin-right: 20px;
+}
+
+.success-stories .stories-carousel .card .card-body .results p {
+    color: #8b8b8bcc;
+}
+
+.success-stories .stories-carousel .card .card-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.success-stories .stories-carousel .card .card-footer button{
+    display:block;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+
+.how-does-it-work {
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.how-does-it-work .title {
+    font-family: 'Alegreya', serif;
+    color: #025157;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.how-does-it-work .description {
+    color: #46484c;
+    max-width: 60%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.how-does-it-work button {
+    border-radius: 8px;
+    font-size: 14px;
+    height: 45px;
+    font-weight: 600;
+}
+
+.how-does-it-work .steps {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.how-does-it-work .steps .card-step {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.how-does-it-work .steps .card-step .card-step-bg {
+    position: relative;
+    height: 350px;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-icon {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: 21px;
+}
+
+.how-does-it-work .steps .card-step .card-step-body h3{
+    color: #025157;
+    font-size: 30px;
+    line-height: 36px;
+    font-family:'Alegreya', serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.how-does-it-work .steps .card-step .card-step-body p {
+    color: #46484c;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    height: 85px;
+    margin:0 20px 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.how-does-it-work .steps .card-step .card-step-body a {
+    color: #67b54b;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
 }
