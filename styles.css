@@ -343,6 +343,14 @@ input, button{
     letter-spacing: -2px;
     color: #025157;
   }
+
+  .comments p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
   .comments img {
     width: 450px;
     margin-top: 40px;

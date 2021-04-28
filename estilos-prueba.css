@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffa857;
+}
+
+.tablas {
+    display:grid;
+    grid-template: repeat(2, 1fr) /repeat(2, 1fr); /*primer repeat es filas, segundo repear es column*/
+    height: 800px;
+}
+
+.articulo {
+    padding: 15px;
+}
+
+.articulo-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inicial figure {
+    align-items: center;
+}
+
+
+@media (max-width:425px) {
+
+    .tablas {
+        grid-template: repeat(4, 1fr)/1fr;
+    }
+
+}
