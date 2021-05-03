@@ -27,6 +27,9 @@ button {
     background-color: #025157;
     color: #fff;
     border:none;
+    margin-left: -10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 form {
@@ -136,6 +139,7 @@ input, button{
     display: flex;
 }
 
+
 .publish .botonera > p {
     color: #8b8b8bcc;
     margin-right: 18px;
@@ -190,7 +194,7 @@ input, button{
    /* display: flex;
     flex-direction: column;*/
     flex: 2;
-    padding: 30px 20px 40px 40px;
+    padding: 70px 20px 60px 40px;
 }
 
 .features .feature-card .feature-content > * {
@@ -256,6 +260,13 @@ input, button{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.navbar button {
+    background-color: #67b54b;
+}
+
+.navbar a {
+    color: #67b54b;
+}
 
 @media (max-width: 425px) {
 
@@ -456,7 +467,103 @@ input, button{
     padding: 12px 20px;
     width: 100%;
   }
-  
+
+  .how-does-it-work {
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.how-does-it-work .title {
+    font-family: 'Alegreya', serif;
+    color: #025157;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.how-does-it-work .description {
+    color: #46484c;
+    max-width: 60%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.how-does-it-work .description a {
+    color:#67b54b;
+}
+.how-does-it-work button {
+    border-radius: 8px;
+    font-size: 14px;
+    height: 45px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.how-does-it-work .steps {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.how-does-it-work .steps .card-step {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.how-does-it-work .steps .card-step .card-step-image {
+    position:relative;
+    height: 350px;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-bg {
+    width: 100%;
+    height: 100%;
+}
+
+.how-does-it-work .steps .card-step .card-step-image .card-step-icon {
+    top:25px;
+    left:25px;
+    width:21px;
+    position: absolute;
+}
+
+.how-does-it-work .steps .card-step .card-step-body h3{
+    color: #025157;
+    font-size: 30px;
+    line-height: 36px;
+    font-family:'Alegreya', serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.how-does-it-work .steps .card-step .card-step-body p {
+    color: #46484c;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    height: 85px;
+    margin:16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.how-does-it-work .steps .card-step .card-step-body a {
+    color: #67b54b;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+}
 /*.success-stories {
     background-color: #a1d683;
     display: flex;
